@@ -34,7 +34,11 @@ Full waveform inversion (FWI) is a popular method for subsurface parameter estim
 ## Framework
 
 <p align="center">
-  <img src="figures/framework.png" width="850">
+  <img src="figures/framework.png" width="850"/>
+</p>
+
+<p align="center">
+  <b>Figure 1.</b> Overview of the proposed DLM-FWI framework.
 </p>
 
 The workflow of DLM-FWI consists of the following main steps:
