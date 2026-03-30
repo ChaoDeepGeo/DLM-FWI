@@ -34,7 +34,7 @@ Full waveform inversion (FWI) is a popular method for subsurface parameter estim
 ## Framework
 
 <p align="center">
-  <img src="figures/framework.png" width="850"/>
+  <img src="figures/dlmfwi.png" width="850"/>
 </p>
 
 <p align="center">
@@ -44,9 +44,9 @@ Full waveform inversion (FWI) is a popular method for subsurface parameter estim
 The workflow of DLM-FWI consists of the following main steps:
 
 1. Generate synthetic seismic data from the current velocity model.
-2. Use a deep-learning-based matching module to map synthetic data closer to the observed data domain.
-3. Compute the misfit between matched synthetic data and observed data.
-4. Backpropagate the misfit to update the subsurface model iteratively.
+2. Use a deep-learning-based matching module to generate extended synthetic data into a latent space for improved data fitting.
+3. Compute the misfit between extended synthetic data and observed data.
+4. Backpropagate the misfit to update the velocity model iteratively.
 
 ---
 
