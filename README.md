@@ -55,7 +55,7 @@ The workflow of DLM-FWI consists of the following main steps:
 - Robust against cycle skipping
 - Improves inversion with poor initial models
 - Compatible with conventional FWI workflows
-- Supports deep-learning-based data-domain matching
+- Free of complex adjoint source and gradient derivation and calculation.
 - Easy to extend to acoustic, viscoacoustic, and elastic settings
 
 ---
