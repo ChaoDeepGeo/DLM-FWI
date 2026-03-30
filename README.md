@@ -2,12 +2,11 @@
 
 # DLM-FWI: Deep-Learning-Based Matching for Robust Full-Waveform Inversion
 
-**Your Name**<sup>1</sup> &nbsp;&nbsp;
-**Collaborator 1**<sup>2</sup> &nbsp;&nbsp;
-**Collaborator 2**<sup>1</sup>
+**Chao Li**<sup>1</sup> &nbsp;&nbsp;
+**Sergey Fomel 1**<sup>2</sup> &nbsp;&nbsp;
+**Yangkang Chen 1**<sup>1</sup>
 
-<sup>1</sup> Your Institution  
-<sup>2</sup> Collaborator Institution  
+<sup>1</sup> Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, The University of Texas at Austin  
 
 ![Stars](https://img.shields.io/github/stars/yourname/DLM-FWI?style=social)
 ![Forks](https://img.shields.io/github/forks/yourname/DLM-FWI?style=social)
