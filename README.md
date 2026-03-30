@@ -3,7 +3,7 @@
 # DLM-FWI: Deep-Learning-Based Matching for Robust Full-Waveform Inversion
 
 **Chao Li**<sup>1</sup> &nbsp;&nbsp;
-**Sergey Fomel 1**<sup>2</sup> &nbsp;&nbsp;
+**Sergey Fomel 1**<sup>1</sup> &nbsp;&nbsp;
 **Yangkang Chen 1**<sup>1</sup>
 
 <sup>1</sup> Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, The University of Texas at Austin  
