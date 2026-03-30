@@ -3,8 +3,8 @@
 # DLM-FWI: Deep learning matching filtering for full waveform inversion
 
 **Chao Li**<sup>1</sup> &nbsp;&nbsp;
-**Sergey Fomel 1**<sup>1</sup> &nbsp;&nbsp;
-**Yangkang Chen 1**<sup>1</sup>
+**Sergey Fomel**<sup>1</sup> &nbsp;&nbsp;
+**Yangkang Chen**<sup>1</sup>
 
 <sup>1</sup> Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, The University of Texas at Austin  
 
@@ -69,9 +69,34 @@ conda create -n dlmfwi python=3.10
 conda activate dlmfwi
 pip install numpy scipy matplotlib torch torchvision
 pip install jupyter
+```
+
+---
+
+## Reference 
+
+> Li et al., DLM-FWI: Deep-learning Matching Filtering for Full-Waveform Inversion.  
+
+### BibTex
+
+```bibtex
+@article{li2026dlmfwi,
+    author = {Li, Chao and Fomel, Sergey and Chen, Yangkang},
+    title = {DLM-FWI: deep learning matching filtering for full waveform inversion},
+    journal = {Geophysical Journal International},
+    volume = {245},
+    number = {1},
+    pages = {ggag019},
+    year = {2026},
+    month = {01},
+    doi = {10.1093/gji/ggag019},
+    eprint = {https://academic.oup.com/gji/article-pdf/245/1/ggag019/66429768/ggag019.pdf}
+}
 
 
 
+
+```
 
 
 
