@@ -1,6 +1,6 @@
 <div align="center">
 
-# DLM-FWI: Deep-Learning-Based Matching for Robust Full-Waveform Inversion
+# DLM-FWI: Deep learning matching filtering for full waveform inversion
 
 **Chao Li**<sup>1</sup> &nbsp;&nbsp;
 **Sergey Fomel 1**<sup>1</sup> &nbsp;&nbsp;
@@ -20,14 +20,14 @@
 
 ## Overview
 
-DLM-FWI is a deep-learning-assisted full-waveform inversion framework designed to improve inversion robustness under challenging scenarios such as cycle skipping, limited bandwidth, and inaccurate initial models.  
+DLM-FWI is a deep-learning-assisted full-waveform inversion framework designed to improve inversion robustness under challenging scenarios such as cycle skipping, and inaccurate initial models.  
 The method introduces a learned matching strategy to reduce the discrepancy between observed and synthetic seismic data, thereby guiding the inversion toward more reliable subsurface model updates.
 
 ---
 
 ## Abstract
 
-Full-waveform inversion (FWI) is a powerful technique for high-resolution subsurface model building, but its performance is often limited by cycle skipping, especially when low-frequency information is missing or the initial model is inadequate. To address this issue, we propose **DLM-FWI**, a deep-learning-based matching framework that improves the consistency between observed and predicted seismic data before computing the inversion gradient. By incorporating learned data-domain alignment into the inversion workflow, the proposed method enlarges the convergence basin and enhances inversion stability. Numerical experiments demonstrate that DLM-FWI can recover more accurate large-scale velocity structures than conventional FWI under challenging conditions, indicating its potential for practical seismic imaging applications.
+Full waveform inversion (FWI) is a popular method for subsurface parameter estimation. Despite its effectiveness in building high-resolution velocity models, the quality of the inversion result is significantly dependent on a fairly accurate, smooth initial model, which is often challenging to build. To weaken the influence related to the inaccurate initial model, we propose a deep learning (DL) matching-based FWI framework, namely DLM-FWI, where multiple convolution neural networks (CNNs) are used to construct an adaptive matching filter to better pinpoint the discrepancies between the synthetic and observed data. With the help of the CNN-based matching filter, the synthetic data will be regularized first, leading to intermediate data, and the model update will be conducted by minimizing the misfit between the intermediate and the observed data for improved data-fitting. More importantly, we integrate the whole inversion process into an automatic differentiation (AD) framework, simplifying the implementation of classic FWI. We apply the proposed DLM-FWI method to both synthetic and field datasets to validate its effectiveness. The results demonstrate that compared with classic FWI, DLM-FWI performs better in subsurface model reconstruction when the initial model is far from the global minimum.
 
 ---
 
