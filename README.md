@@ -9,10 +9,10 @@
 <sup>1</sup> Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, The University of Texas at Austin  
 
 ![Stars](https://img.shields.io/github/stars/ChaoDeepGeo/DLM-FWI?style=social)
-![Forks](https://img.shields.io/github/forks/yourname/DLM-FWI?style=social)
-![Repo Size](https://img.shields.io/github/repo-size/yourname/DLM-FWI)
-![Last Commit](https://img.shields.io/github/last-commit/yourname/DLM-FWI)
-![Top Language](https://img.shields.io/github/languages/top/yourname/DLM-FWI)
+![Forks](https://img.shields.io/github/forks/ChaoDeepGeo/DLM-FWI?style=social)
+![Repo Size](https://img.shields.io/github/repo-size/ChaoDeepGeo/DLM-FWI)
+![Last Commit](https://img.shields.io/github/last-commit/ChaoDeepGeo/DLM-FWI)
+![Top Language](https://img.shields.io/github/languages/top/ChaoDeepGeo/DLM-FWI)
 
 </div>
 
