@@ -69,3 +69,11 @@ conda create -n dlmfwi python=3.10
 conda activate dlmfwi
 pip install numpy scipy matplotlib torch torchvision
 pip install jupyter
+
+
+
+
+
+
+
+
