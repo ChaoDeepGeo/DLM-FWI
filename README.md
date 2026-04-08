@@ -50,6 +50,16 @@ The workflow of DLM-FWI consists of the following main steps:
 
 ---
 
+## Documents demonstration
+
+- The Marmousi folder contains necessary code to reproduce the Marmousi result (main.ipynb is ready visialize the prilimary results).
+- The Overthrus folder contains necessary code to reproduce the Overthrust result (main.ipynb is ready visialize the prilimary results).
+
+---
+
+
+
+
 ## Result
 
 <p align="center">
