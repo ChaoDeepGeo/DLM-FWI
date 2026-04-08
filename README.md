@@ -48,21 +48,7 @@ The workflow of DLM-FWI consists of the following main steps:
 3. Compute the misfit between extended synthetic data and observed data.
 4. Backpropagate the misfit to update the velocity model iteratively.
 
-## Result
-
-<p align="center">
-  <img src="figures/dlmfwi.png" width="850"/>
-</p>
-
-<p align="center">
-  <b>Figure 1.</b> Overview of the proposed DLM-FWI framework.
-</p>
-
 ---
-
-
-
-
 
 ## Features
 
