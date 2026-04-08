@@ -1,9 +1,3 @@
-"""
-Siamese NEtwork 
-@author: Omar M. Saad
-January, 2024
-
-"""
 import numpy as np
 import random
 import torchvision
@@ -36,7 +30,7 @@ def weights_init(m, leak_value):
             init.constant_(m.bias, 0.0)
 
 #create the Siamese Neural Network
-class SiameseNetwork(nn.Module):
+class Network(nn.Module):
 
     def __init__(self,D1):
         super(SiameseNetwork, self).__init__()
