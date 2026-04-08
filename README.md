@@ -60,6 +60,14 @@ The workflow of DLM-FWI consists of the following main steps:
   <b>Figure 2.</b> Inversion result of Marmousi model.
 </p>
 
+<p align="center">
+  <img src="figures/over.png" width="850"/>
+</p>
+
+<p align="center">
+  <b>Figure 2.</b> Inversion result of Overthrust model (a filtered wavelet is used for inversion).
+</p>
+
 ---
 
 ## Features
