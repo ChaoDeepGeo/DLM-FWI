@@ -57,7 +57,7 @@ The workflow of DLM-FWI consists of the following main steps:
 </p>
 
 <p align="center">
-  <b>Figure 2.</b> Inversion result of Marmousi model. (a).
+  <b>Figure 2.</b> Inversion result of Marmousi model.
 </p>
 
 ---
