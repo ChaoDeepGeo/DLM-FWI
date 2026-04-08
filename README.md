@@ -65,9 +65,9 @@ The workflow of DLM-FWI consists of the following main steps:
 To set up the environment, run:
 
 ```bash
-conda create -n dlmfwi python=3.10
+conda create -n dlmfwi python=3.11.7
 conda activate dlmfwi
-pip install numpy scipy matplotlib torch torchvision
+pip install numpy scipy matplotlib torch torchvision deepwave
 pip install jupyter
 ```
 
