@@ -29,11 +29,11 @@ def weights_init(m, leak_value):
         if m.bias is not None:
             init.constant_(m.bias, 0.0)
 
-#create the Siamese Neural Network
+#create the Neural Network
 class Network(nn.Module):
 
     def __init__(self,D1):
-        super(SiameseNetwork, self).__init__()
+        super(Network, self).__init__()
         self.D1 = D1
         # Setting up the Sequential of CNN Layers
         self.cnn1 = nn.Conv2d(1, self.D1, kernel_size=3,stride=1,padding=1)
