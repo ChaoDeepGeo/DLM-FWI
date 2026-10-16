@@ -103,7 +103,7 @@ conda activate your_env_name
 
 ## Reference 
 
-> Li et al., DLM-FWI: Deep-learning Matching Filtering for Full-Waveform Inversion.  
+> Li et al., 2026, DLM-FWI: Deep-learning Matching Filtering for Full-Waveform Inversion, Geophysical Journal International, 245(1), ggag019.  
 
 ### BibTex
 
